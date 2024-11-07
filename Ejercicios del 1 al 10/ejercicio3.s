@@ -7,6 +7,8 @@
 //Ejercicio 3
 //Resta de dos números	
 //Aritmética básica	
+//video de los ejercicios del 1 al 10 ejercicios
+//https://asciinema.org/a/BqdmUa6hpbRcnqepBZE38ycTK
 ///////////////////////////////////////////////
 
 //C#
