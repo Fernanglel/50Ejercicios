@@ -7,6 +7,8 @@
 //Ejercicio 7
 //Factorial de un número	
 //Recursión/bucles	
+//video de los ejercicios del 1 al 10 ejercicios
+//https://asciinema.org/a/BqdmUa6hpbRcnqepBZE38ycTK
 ///////////////////////////////////////////////
 
 //C#
