@@ -7,6 +7,8 @@
 //Ejercicio 5
 //División de dos números	
 //Aritmética (UDIV, SDIV)	
+//video de los ejercicios del 1 al 10 ejercicios
+//https://asciinema.org/a/BqdmUa6hpbRcnqepBZE38ycTK
 ///////////////////////////////////////////////
 
 //C#
