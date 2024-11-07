@@ -7,6 +7,8 @@
 //Ejercicio 10
 //Invertir una cadena	
 //Manipulación de cadenas	
+//video de los ejercicios del 1 al 10 ejercicios
+//https://asciinema.org/a/BqdmUa6hpbRcnqepBZE38ycTK
 ///////////////////////////////////////////////
 
 //C#
