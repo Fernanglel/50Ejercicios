@@ -1,6 +1,6 @@
 Link - https://asciinema.org/a/BqdmUa6hpbRcnqepBZE38ycTK
 
-Ejercicio 1
+//Ejercicio 1
 ////////////////////////////////////////////////
 //Angel Fernando Garcia Calderon
 //No.control - 22210306
@@ -13,6 +13,25 @@ Ejercicio 1
 ///////////////////////////////////////////////
 
 //C#
+*/
+using System;
+
+class Program
+{
+    static void Main()
+    {
+        // Pedir al usuario que ingrese la temperatura en Celsius
+        Console.Write("Ingrese la temperatura en Celsius: ");
+        double celsius = Convert.ToDouble(Console.ReadLine());
+
+        // Realizar la conversión a Fahrenheit
+        double fahrenheit = (celsius * 9 / 5) + 32;
+
+        // Mostrar el resultado
+        Console.WriteLine($"La temperatura en Fahrenheit es: {fahrenheit}");
+    }
+}
+*/
 
 //ARM64
 .section .data
@@ -76,7 +95,7 @@ main:
 
 ***********************************************************************************************************
 
-Ejercicio 2
+//Ejercicio 2
 ////////////////////////////////////////////////
 //Angel Fernando Garcia Calderon
 //No.control - 22210306
@@ -87,6 +106,29 @@ Ejercicio 2
 //Aritmética básica	
 ///////////////////////////////////////////////
 //C#
+/*
+using System;
+
+class Program
+{
+    static void Main()
+    {
+        // Pedir al usuario que ingrese el primer número
+        Console.Write("Ingrese el primer número: ");
+        double num1 = Convert.ToDouble(Console.ReadLine());
+
+        // Pedir al usuario que ingrese el segundo número
+        Console.Write("Ingrese el segundo número: ");
+        double num2 = Convert.ToDouble(Console.ReadLine());
+
+        // Realizar la suma de los dos números
+        double suma = num1 + num2;
+
+        // Mostrar el resultado
+        Console.WriteLine($"La suma de {num1} y {num2} es: {suma}");
+    }
+}
+*/
 
 //ARM64
 .section .data
@@ -149,7 +191,7 @@ gcc -o suma suma.o
 
 ****************************************************************************************
 
-Ejercicio 3
+//Ejercicio 3
 ////////////////////////////////////////////////
 //Angel Fernando Garcia Calderon
 //No.control - 22210306
@@ -161,6 +203,29 @@ Ejercicio 3
 ///////////////////////////////////////////////
 
 //C#
+/*
+using System;
+
+class Program
+{
+    static void Main()
+    {
+        // Pedir al usuario que ingrese el primer número
+        Console.Write("Ingrese el primer número: ");
+        double num1 = Convert.ToDouble(Console.ReadLine());
+
+        // Pedir al usuario que ingrese el segundo número
+        Console.Write("Ingrese el segundo número: ");
+        double num2 = Convert.ToDouble(Console.ReadLine());
+
+        // Realizar la resta de los dos números
+        double resta = num1 - num2;
+
+        // Mostrar el resultado
+        Console.WriteLine($"La resta de {num1} y {num2} es: {resta}");
+    }
+}
+*/
 
 //ARM64
 .section .data
@@ -218,7 +283,7 @@ main:
 
 *******************************************************************************************
 
-Ejercicio 4
+//Ejercicio 4
 ////////////////////////////////////////////////
 //Angel Fernando Garcia Calderon
 //No.control - 22210306
@@ -230,6 +295,29 @@ Ejercicio 4
 ///////////////////////////////////////////////
 
 //C#
+/*
+using System;
+
+class Program
+{
+    static void Main()
+    {
+        // Pedir al usuario que ingrese el primer número
+        Console.Write("Ingrese el primer número: ");
+        double num1 = Convert.ToDouble(Console.ReadLine());
+
+        // Pedir al usuario que ingrese el segundo número
+        Console.Write("Ingrese el segundo número: ");
+        double num2 = Convert.ToDouble(Console.ReadLine());
+
+        // Realizar la multiplicación de los dos números
+        double multiplicacion = num1 * num2;
+
+        // Mostrar el resultado
+        Console.WriteLine($"La multiplicación de {num1} y {num2} es: {multiplicacion}");
+    }
+}
+*/
 
 //ARM64
 .section .data
@@ -287,7 +375,7 @@ main:
 
 *************************************************************************
 
-Ejercicio 5
+//Ejercicio 5
 ////////////////////////////////////////////////
 //Angel Fernando Garcia Calderon
 //No.control - 22210306
@@ -299,6 +387,37 @@ Ejercicio 5
 ///////////////////////////////////////////////
 
 //C#
+/*
+using System;
+
+class Program
+{
+    static void Main()
+    {
+        // Pedir al usuario que ingrese el primer número (dividendo)
+        Console.Write("Ingrese el primer número (dividendo): ");
+        double num1 = Convert.ToDouble(Console.ReadLine());
+
+        // Pedir al usuario que ingrese el segundo número (divisor)
+        Console.Write("Ingrese el segundo número (divisor): ");
+        double num2 = Convert.ToDouble(Console.ReadLine());
+
+        // Verificar si el divisor es 0 para evitar la división por cero
+        if (num2 == 0)
+        {
+            Console.WriteLine("Error: No se puede dividir por cero.");
+        }
+        else
+        {
+            // Realizar la división de los dos números
+            double division = num1 / num2;
+
+            // Mostrar el resultado
+            Console.WriteLine($"La división de {num1} entre {num2} es: {division}");
+        }
+    }
+}
+*/
 
 //ARM64
 .section .data
@@ -376,7 +495,7 @@ division_por_cero:
     svc 0
 
 ***********************************************************************************
-Ejercicio 6
+//Ejercicio 6
 ////////////////////////////////////////////////
 //Angel Fernando Garcia Calderon
 //No.control - 22210306
@@ -388,6 +507,33 @@ Ejercicio 6
 ///////////////////////////////////////////////
 
 //C#
+/*
+using System;
+
+class Program
+{
+    static void Main()
+    {
+        // Pedir al usuario que ingrese el valor de N
+        Console.Write("Ingrese el valor de N: ");
+        int N = Convert.ToInt32(Console.ReadLine());
+
+        // Verificar si N es un número positivo
+        if (N < 1)
+        {
+            Console.WriteLine("Por favor, ingrese un número natural positivo mayor que 0.");
+        }
+        else
+        {
+            // Calcular la suma de los N primeros números naturales usando la fórmula
+            int suma = N * (N + 1) / 2;
+
+            // Mostrar el resultado
+            Console.WriteLine($"La suma de los primeros {N} números naturales es: {suma}");
+        }
+    }
+}
+*/
 
 //ARM64
 .section .data
@@ -454,7 +600,7 @@ gcc -o suma_naturales suma_naturales.o
 
 ************************************************************************************************
 
-ejercicio7  
+//ejercicio7  
 ////////////////////////////////////////////////
 //Angel Fernando Garcia Calderon
 //No.control - 22210306
@@ -466,6 +612,37 @@ ejercicio7
 ///////////////////////////////////////////////
 
 //C#
+/*
+using System;
+
+class Program
+{
+    static void Main()
+    {
+        // Pedir al usuario que ingrese un número
+        Console.Write("Ingrese un número para calcular su factorial: ");
+        int n = Convert.ToInt32(Console.ReadLine());
+
+        // Verificar si el número es negativo
+        if (n < 0)
+        {
+            Console.WriteLine("El factorial no está definido para números negativos.");
+        }
+        else
+        {
+            // Calcular el factorial usando un bucle
+            long factorial = 1;
+            for (int i = 1; i <= n; i++)
+            {
+                factorial *= i;
+            }
+
+            // Mostrar el resultado
+            Console.WriteLine($"El factorial de {n} es: {factorial}");
+        }
+    }
+}
+*/
 
 //ARM64
 .section .data
@@ -526,7 +703,7 @@ end_factorial:
 
 ********************************************************
 
-ejercicio 8 
+//ejercicio 8 
 ////////////////////////////////////////////////
 //Angel Fernando Garcia Calderon
 //No.control - 22210306
@@ -538,6 +715,35 @@ ejercicio 8
 ///////////////////////////////////////////////
 
 //C#
+/*
+using System;
+
+class Program
+{
+    static void Main()
+    {
+        // Pedir al usuario que ingrese el valor de N
+        Console.Write("Ingrese la cantidad de términos de la serie Fibonacci: ");
+        int N = Convert.ToInt32(Console.ReadLine());
+
+        // Mostrar la serie de Fibonacci usando recursión
+        Console.WriteLine("Serie de Fibonacci:");
+        for (int i = 0; i < N; i++)
+        {
+            Console.Write(FibonacciRecursivo(i) + " ");
+        }
+        Console.WriteLine(); // Salto de línea al final
+    }
+
+    // Método recursivo para calcular el n-ésimo término de Fibonacci
+    static long FibonacciRecursivo(int n)
+    {
+        if (n == 0) return 0; // Caso base
+        if (n == 1) return 1; // Caso base
+        return FibonacciRecursivo(n - 1) + FibonacciRecursivo(n - 2); // Llamada recursiva
+    }
+}
+*/
 
 //ARM64
 .section .data
@@ -627,7 +833,7 @@ end_program:
 
 ********************************************************************
 
-ejercicio 9 
+//ejercicio 9 
 ////////////////////////////////////////////////
 //Angel Fernando Garcia Calderon
 //No.control - 22210306
@@ -639,6 +845,49 @@ ejercicio 9
 ///////////////////////////////////////////////
 
 //C#
+/*
+using System;
+
+class Program
+{
+    static void Main()
+    {
+        // Pedir al usuario que ingrese un número
+        Console.Write("Ingrese un número para verificar si es primo: ");
+        int numero = Convert.ToInt32(Console.ReadLine());
+
+        // Verificar si el número es primo
+        if (EsPrimo(numero))
+        {
+            Console.WriteLine($"{numero} es un número primo.");
+        }
+        else
+        {
+            Console.WriteLine($"{numero} no es un número primo.");
+        }
+    }
+
+    // Método para verificar si un número es primo
+    static bool EsPrimo(int n)
+    {
+        // Casos base
+        if (n <= 1) return false;   // No es primo si es menor o igual a 1
+        if (n == 2) return true;    // El 2 es el único número primo par
+
+        // Verificar divisibilidad desde 2 hasta la raíz cuadrada de n
+        for (int i = 2; i <= Math.Sqrt(n); i++)
+        {
+            if (n % i == 0) // Si n es divisible por i, no es primo
+            {
+                return false;
+            }
+        }
+
+        // Si no se encuentra ningún divisor, es primo
+        return true;
+    }
+}
+*/
 
 //ARM64
 .section .data
@@ -714,7 +963,7 @@ end_program:
 
 *************************************************************
 
-ejercicio 10 
+//ejercicio 10 
 ////////////////////////////////////////////////
 //Angel Fernando Garcia Calderon
 //No.control - 22210306
@@ -726,7 +975,27 @@ ejercicio 10
 ///////////////////////////////////////////////
 
 //C#
+/*
+using System;
+using System.Linq;
 
+class Program
+{
+    static void Main()
+    {
+        // Pedir al usuario que ingrese una cadena
+        Console.Write("Ingrese una cadena: ");
+        string input = Console.ReadLine();
+
+        // Usar LINQ para invertir la cadena
+        string reversed = new string(input.Reverse().ToArray());
+
+        // Mostrar la cadena invertida
+        Console.WriteLine($"La cadena invertida es: {reversed}");
+    }
+}
+
+*/
 //ARM64
 .section .data
     mensaje: .asciz "Ingresa una cadena para invertir: "
