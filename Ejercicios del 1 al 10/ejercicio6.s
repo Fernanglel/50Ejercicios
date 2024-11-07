@@ -7,6 +7,8 @@
 //Ejercicio 6
 //Suma de los N primeros números naturales	
 //Bucles y contadores	
+//video de los ejercicios del 1 al 10 ejercicios
+//https://asciinema.org/a/BqdmUa6hpbRcnqepBZE38ycTK
 ///////////////////////////////////////////////
 
 //C#
