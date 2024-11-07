@@ -7,6 +7,8 @@
 //Ejercicio 4
 //Multiplicación de dos números	
 //Aritmética básica (MUL)	
+//video de los ejercicios del 1 al 10 ejercicios
+//https://asciinema.org/a/BqdmUa6hpbRcnqepBZE38ycTK
 ///////////////////////////////////////////////
 
 //C#
