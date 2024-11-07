@@ -7,6 +7,8 @@
 //Ejercicio 8
 //Serie de Fibonacci	
 //Bucles y manejo de memoria	
+//video de los ejercicios del 1 al 10 ejercicios
+//https://asciinema.org/a/BqdmUa6hpbRcnqepBZE38ycTK
 ///////////////////////////////////////////////
 
 //C#
