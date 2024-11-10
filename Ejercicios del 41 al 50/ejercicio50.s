@@ -1,0 +1,18 @@
+////////////////////////////////////////////////
+//Angel Fernando Garcia Calderon
+//No.control - 22210306
+//Hora- 4 a 5
+//Lenguajes de interfaz
+//Ejercicio 50
+//Escribir en un archivo	
+//Manejo de archivos y llamadas al sistema	
+//Registro de datos
+///////////////////////////////////////////////
+
+//C#
+/*
+
+*/
+
+
+//ARM64
