@@ -7,6 +7,7 @@
 //Multiplicación de matrices	
 //Bucles anidados, operaciones en memoria	
 //Modelado matemático, gráficos por computadora
+//video - https://asciinema.org/a/8VxML2CQMtIAMhem4HAcgHU1E
 ///////////////////////////////////////////////
 
 //C#
