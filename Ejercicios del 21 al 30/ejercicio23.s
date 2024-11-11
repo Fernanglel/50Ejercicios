@@ -7,10 +7,32 @@
 //Conversión de entero a ASCII	
 //Conversión de tipos de datos	
 //Interfaces de usuario
+//video - 
 ///////////////////////////////////////////////
 
 //C#
 /*
+using System;
+
+class Program
+{
+    static void Main()
+    {
+        // Valor entero de ejemplo (por ejemplo, el código ASCII de 'A' es 65)
+        int valorAscii = 65;
+
+        // Convertir el valor entero a su carácter correspondiente
+        char caracter = (char)valorAscii;
+
+        // Mostrar el resultado
+        Console.WriteLine($"El valor entero {valorAscii} corresponde al carácter: '{caracter}'");
+
+        // Probar con otro valor, por ejemplo, el valor de '5' que es 53
+        valorAscii = 53;
+        caracter = (char)valorAscii;
+        Console.WriteLine($"El valor entero {valorAscii} corresponde al carácter: '{caracter}'");
+    }
+}
 
 */
 
@@ -43,3 +65,5 @@ _start:
     mov x0, #0                  // Código de salida
     mov x8, #93                 // Número de syscall para 'exit'
     svc #0                       // Hacer la llamada al sistema
+
+********************************************************************************
