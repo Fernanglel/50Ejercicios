@@ -7,6 +7,7 @@
 //Encontrar el máximo en un arreglo	
 //Recorrido de arreglos	
 //Análisis de datos, búsqueda de valores
+//video - https://asciinema.org/a/8VxML2CQMtIAMhem4HAcgHU1E
 ///////////////////////////////////////////////
 
 //C#
