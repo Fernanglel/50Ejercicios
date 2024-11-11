@@ -7,6 +7,7 @@
 //Ordenamiento por mezcla (Merge Sort)	
 //Recursión y manejo de memoria	
 //Ordenamiento eficiente de grandes datos
+//video - https://asciinema.org/a/8VxML2CQMtIAMhem4HAcgHU1E
 ///////////////////////////////////////////////
 
 //C#
