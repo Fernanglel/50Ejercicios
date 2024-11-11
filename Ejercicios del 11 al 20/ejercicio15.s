@@ -7,6 +7,7 @@
 //Búsqueda binaria	
 //Recursión y saltos	
 //Optimización en búsquedas, bases de datos
+//video - https://asciinema.org/a/8VxML2CQMtIAMhem4HAcgHU1E
 ///////////////////////////////////////////////
 
 //C#
