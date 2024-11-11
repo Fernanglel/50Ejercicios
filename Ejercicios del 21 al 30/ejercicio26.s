@@ -7,10 +7,34 @@
 //Operaciones AND, OR, XOR a nivel de bits	
 //Operaciones a nivel de bits	
 //Criptografía, manipulación de datos
+//video - 
 ///////////////////////////////////////////////
 
 //C#
 /*
+using System;
+
+class Program
+{
+    static void Main()
+    {
+        // Definir dos números
+        int num1 = 5;  // En binario: 0101
+        int num2 = 3;  // En binario: 0011
+
+        // Operación AND (bit a bit)
+        int andResult = num1 & num2;  // 0101 & 0011 = 0001 (1 en decimal)
+        Console.WriteLine($"Resultado de {num1} & {num2} = {andResult}");
+
+        // Operación OR (bit a bit)
+        int orResult = num1 | num2;  // 0101 | 0011 = 0111 (7 en decimal)
+        Console.WriteLine($"Resultado de {num1} | {num2} = {orResult}");
+
+        // Operación XOR (bit a bit)
+        int xorResult = num1 ^ num2;  // 0101 ^ 0011 = 0110 (6 en decimal)
+        Console.WriteLine($"Resultado de {num1} ^ {num2} = {xorResult}");
+    }
+}
 
 */
 
@@ -64,4 +88,4 @@ main:
     ldp     x29, x30, [sp], #16
     mov     x0, #0
     ret
-
+************************************************************************************
