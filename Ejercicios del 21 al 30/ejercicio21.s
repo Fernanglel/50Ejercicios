@@ -7,10 +7,73 @@
 //Transposición de una matriz	
 //Manipulación de arreglos	
 //Procesamiento de datos
+//video - 
 ///////////////////////////////////////////////
 
 //C#
 /*
+using System;
+
+class Program
+{
+    static void Main()
+    {
+        // Crear una matriz de ejemplo
+        int[,] matrizOriginal = {
+            { 1, 2, 3 },
+            { 4, 5, 6 },
+            { 7, 8, 9 }
+        };
+
+        // Mostrar la matriz original
+        Console.WriteLine("Matriz original:");
+        MostrarMatriz(matrizOriginal);
+
+        // Obtener la matriz transpuesta
+        int[,] matrizTranspuesta = TransponerMatriz(matrizOriginal);
+
+        // Mostrar la matriz transpuesta
+        Console.WriteLine("\nMatriz transpuesta:");
+        MostrarMatriz(matrizTranspuesta);
+    }
+
+    // Función para mostrar una matriz
+    static void MostrarMatriz(int[,] matriz)
+    {
+        int filas = matriz.GetLength(0);
+        int columnas = matriz.GetLength(1);
+        
+        for (int i = 0; i < filas; i++)
+        {
+            for (int j = 0; j < columnas; j++)
+            {
+                Console.Write(matriz[i, j] + "\t");
+            }
+            Console.WriteLine();
+        }
+    }
+
+    // Función para transponer la matriz
+    static int[,] TransponerMatriz(int[,] matrizOriginal)
+    {
+        int filas = matrizOriginal.GetLength(0);
+        int columnas = matrizOriginal.GetLength(1);
+        
+        // Crear la matriz transpuesta con el número de filas y columnas intercambiados
+        int[,] matrizTranspuesta = new int[columnas, filas];
+        
+        // Realizar la transposición
+        for (int i = 0; i < filas; i++)
+        {
+            for (int j = 0; j < columnas; j++)
+            {
+                matrizTranspuesta[j, i] = matrizOriginal[i, j];
+            }
+        }
+        
+        return matrizTranspuesta;
+    }
+}
 
 */
 
@@ -90,3 +153,5 @@ print_inner_end:
 print_end:
     ldp     x29, x30, [sp], #16
     ret
+
+*******************************************************************************************************
