@@ -7,10 +7,33 @@
 //Desplazamientos a la izquierda y derecha	
 //Operaciones de desplazamiento	
 //Procesamiento de señales
+//video - 
 ///////////////////////////////////////////////
 
 //C#
 /*
+using System;
+
+class Program
+{
+    static void Main()
+    {
+        int num = 8;  // En binario: 1000
+
+        // Desplazamiento a la izquierda (<<)
+        int desplazamientoIzquierda = num << 2; // 8 << 2 -> 1000 << 2 = 100000 (32 en decimal)
+        Console.WriteLine($"Desplazamiento a la izquierda de {num} << 2: {desplazamientoIzquierda}");
+
+        // Desplazamiento a la derecha (>>)
+        int desplazamientoDerecha = num >> 2; // 8 >> 2 -> 1000 >> 2 = 10 (2 en decimal)
+        Console.WriteLine($"Desplazamiento a la derecha de {num} >> 2: {desplazamientoDerecha}");
+        
+        // Desplazamiento a la derecha en número negativo
+        int numNegativo = -8; // En binario de complemento a dos: 11111111111111111111111111111000
+        int desplazamientoDerechaNegativo = numNegativo >> 2; // -8 >> 2
+        Console.WriteLine($"Desplazamiento a la derecha de {numNegativo} >> 2: {desplazamientoDerechaNegativo}");
+    }
+}
 
 */
 
@@ -90,3 +113,6 @@ shift_right:
     
     ldp     x29, x30, [sp], #16
     ret
+
+************************************************************************************************
+    
