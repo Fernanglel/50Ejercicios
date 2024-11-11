@@ -7,6 +7,7 @@
 //Suma de matrices	
 //Operaciones con arreglos 2D	
 //Procesamiento de imágenes
+//video - https://asciinema.org/a/8VxML2CQMtIAMhem4HAcgHU1E
 ///////////////////////////////////////////////
 
 //C#
