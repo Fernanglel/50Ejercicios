@@ -7,10 +7,27 @@
 //Calcular la longitud de una cadena	
 //Manipulación de cadenas	
 //Procesamiento de texto
+//video - 
 ///////////////////////////////////////////////
 
 //C#
 /*
+using System;
+
+class Program
+{
+    static void Main()
+    {
+        // Definir una cadena
+        string texto = "Hola, mundo!";
+
+        // Calcular la longitud de la cadena
+        int longitud = texto.Length;
+
+        // Mostrar la longitud
+        Console.WriteLine($"La longitud de la cadena es: {longitud}");
+    }
+}
 
 */
 
@@ -103,3 +120,5 @@ itoa_loop:
 itoa_done:
     mov x0, x2           // Restauramos el puntero al inicio del buffer
     ret                  // Retornamos
+    
+*********************************************************************
