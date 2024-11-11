@@ -7,10 +7,32 @@
 //Conversión de ASCII a entero	
 //Conversión de tipos de datos	
 //Validación de entradas
+//video - 
 ///////////////////////////////////////////////
 
 //C#
 /*
+using System;
+
+class Program
+{
+    static void Main()
+    {
+        // Caracter ASCII de ejemplo
+        char caracter = 'A';
+
+        // Convertir el carácter a su valor entero ASCII
+        int valorAscii = (int)caracter;
+
+        // Mostrar el resultado
+        Console.WriteLine($"El valor ASCII de '{caracter}' es: {valorAscii}");
+        
+        // Convertir también un carácter numérico (por ejemplo, '5')
+        char caracterNumerico = '5';
+        int valorAsciiNumerico = (int)caracterNumerico;
+        Console.WriteLine($"El valor ASCII de '{caracterNumerico}' es: {valorAsciiNumerico}");
+    }
+}
 
 */
 
@@ -110,3 +132,4 @@ itoa_done:
     ret                  // Retornamos
 
 ********************************************************
+
