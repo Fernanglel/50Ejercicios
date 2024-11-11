@@ -3,10 +3,10 @@
 //No.control - 22210306
 //Hora- 4 a 5
 //Lenguajes de interfaz
-//Ejercicio 45
-//Verificar si un número es Armstrong
-//Aritmética y flujo de control	
-//Análisis de números
+//Ejercicio 25
+//Contar vocales y consonantes	
+//Análisis de cadenas	
+//Análisis de textos
 ///////////////////////////////////////////////
 
 //C#
