@@ -7,6 +7,7 @@
 //Ordenamiento burbuja	
 //Algoritmos de ordenamiento	
 //Optimización y organización de datos
+//video - https://asciinema.org/a/8VxML2CQMtIAMhem4HAcgHU1E
 ///////////////////////////////////////////////
 
 //C#
