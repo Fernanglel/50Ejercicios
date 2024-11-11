@@ -7,10 +7,52 @@
 //Establecer, borrar y alternar bits	
 //Manipulación de bits	
 //Control de dispositivos
+//video - 
 ///////////////////////////////////////////////
 
 //C#
 /*
+using System;
+
+class Program
+{
+    static void Main()
+    {
+        int num = 29;  // 29 en binario: 11101
+
+        Console.WriteLine($"Número original: {num} (binario: {Convert.ToString(num, 2).PadLeft(8, '0')})");
+
+        // Establecer el bit en la posición 1 (de derecha a izquierda, empezando en 0)
+        int numConBitEstablecido = EstablecerBit(num, 1);
+        Console.WriteLine($"Después de establecer el bit 1: {numConBitEstablecido} (binario: {Convert.ToString(numConBitEstablecido, 2).PadLeft(8, '0')})");
+
+        // Borrar el bit en la posición 3
+        int numConBitBorrado = BorrarBit(num, 3);
+        Console.WriteLine($"Después de borrar el bit 3: {numConBitBorrado} (binario: {Convert.ToString(numConBitBorrado, 2).PadLeft(8, '0')})");
+
+        // Alternar el bit en la posición 2
+        int numConBitAlternado = AlternarBit(num, 2);
+        Console.WriteLine($"Después de alternar el bit 2: {numConBitAlternado} (binario: {Convert.ToString(numConBitAlternado, 2).PadLeft(8, '0')})");
+    }
+
+    // Método para establecer un bit en una posición dada (ponerlo a 1)
+    static int EstablecerBit(int num, int posicion)
+    {
+        return num | (1 << posicion);  // Desplazamos 1 a la posición deseada y hacemos OR con num
+    }
+
+    // Método para borrar un bit en una posición dada (ponerlo a 0)
+    static int BorrarBit(int num, int posicion)
+    {
+        return num & ~(1 << posicion);  // Desplazamos 1 a la posición, negamos el valor y hacemos AND con num
+    }
+
+    // Método para alternar un bit en una posición dada (invertirlo)
+    static int AlternarBit(int num, int posicion)
+    {
+        return num ^ (1 << posicion);  // Desplazamos 1 a la posición deseada y hacemos XOR con num
+    }
+}
 
 */
 
@@ -107,3 +149,5 @@ clear_bits:
 toggle_bits:
     eor     x0, x0, x1
     ret
+
+****************************************************
