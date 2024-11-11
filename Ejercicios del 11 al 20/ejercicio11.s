@@ -7,6 +7,7 @@
 //Verificar si una cadena es palíndromo	
 //Flujo de control y manejo de cadenas	
 //Análisis de palabras, juegos de palabras
+//video - https://asciinema.org/a/8VxML2CQMtIAMhem4HAcgHU1E
 ///////////////////////////////////////////////
 
 //C#
