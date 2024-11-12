@@ -11,6 +11,105 @@
 
 //C#
 /*
+using System;
+
+class Pila
+{
+    private int[] elementos;
+    private int tope; // Índice del elemento en la parte superior de la pila
+    private int capacidad;
+
+    // Constructor para inicializar la pila con una capacidad dada
+    public Pila(int tamaño)
+    {
+        capacidad = tamaño;
+        elementos = new int[capacidad];
+        tope = -1; // Inicialmente la pila está vacía
+    }
+
+    // Método para insertar un elemento en la pila (Push)
+    public void Push(int elemento)
+    {
+        if (IsFull())
+        {
+            Console.WriteLine("Error: La pila está llena.");
+            return;
+        }
+        elementos[++tope] = elemento;
+        Console.WriteLine($"Elemento {elemento} insertado en la pila.");
+    }
+
+    // Método para eliminar y devolver el elemento superior de la pila (Pop)
+    public int Pop()
+    {
+        if (IsEmpty())
+        {
+            Console.WriteLine("Error: La pila está vacía.");
+            return -1; // Valor indicativo si la pila está vacía
+        }
+        return elementos[tope--];
+    }
+
+    // Método para devolver el elemento superior de la pila sin eliminarlo (Peek)
+    public int Peek()
+    {
+        if (IsEmpty())
+        {
+            Console.WriteLine("Error: La pila está vacía.");
+            return -1;
+        }
+        return elementos[tope];
+    }
+
+    // Método para verificar si la pila está vacía
+    public bool IsEmpty()
+    {
+        return tope == -1;
+    }
+
+    // Método para verificar si la pila está llena
+    public bool IsFull()
+    {
+        return tope == capacidad - 1;
+    }
+
+    // Método para obtener el número de elementos en la pila
+    public int Tamaño()
+    {
+        return tope + 1;
+    }
+}
+
+class Program
+{
+    static void Main(string[] args)
+    {
+        // Crear una pila con capacidad de 5 elementos
+        Pila pila = new Pila(5);
+
+        // Probar las operaciones de la pila
+        pila.Push(10);
+        pila.Push(20);
+        pila.Push(30);
+
+        Console.WriteLine($"Elemento superior (Peek): {pila.Peek()}");
+
+        Console.WriteLine($"Elemento removido (Pop): {pila.Pop()}");
+        Console.WriteLine($"Elemento superior (Peek): {pila.Peek()}");
+
+        pila.Push(40);
+        pila.Push(50);
+        pila.Push(60); // Intentar insertar cuando la pila está llena
+
+        Console.WriteLine($"Tamaño actual de la pila: {pila.Tamaño()}");
+
+        // Vaciar la pila
+        while (!pila.IsEmpty())
+        {
+            Console.WriteLine($"Elemento removido (Pop): {pila.Pop()}");
+        }
+    }
+}
 
 */
 
