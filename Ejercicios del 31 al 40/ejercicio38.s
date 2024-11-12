@@ -11,6 +11,114 @@
 
 //C#
 /*
+using System;
+
+class Cola
+{
+    private int[] elementos;
+    private int frente;     // Índice del elemento en el frente de la cola
+    private int fin;        // Índice donde se inserta el próximo elemento
+    private int tamaño;
+    private int capacidad;
+
+    // Constructor para inicializar la cola con una capacidad dada
+    public Cola(int tamaño)
+    {
+        capacidad = tamaño;
+        elementos = new int[capacidad];
+        frente = 0;
+        fin = -1;
+        this.tamaño = 0;
+    }
+
+    // Método para insertar un elemento en la cola (Enqueue)
+    public void Enqueue(int elemento)
+    {
+        if (IsFull())
+        {
+            Console.WriteLine("Error: La cola está llena.");
+            return;
+        }
+        fin = (fin + 1) % capacidad; // Mover el fin de forma circular
+        elementos[fin] = elemento;
+        tamaño++;
+        Console.WriteLine($"Elemento {elemento} insertado en la cola.");
+    }
+
+    // Método para eliminar y devolver el elemento del frente de la cola (Dequeue)
+    public int Dequeue()
+    {
+        if (IsEmpty())
+        {
+            Console.WriteLine("Error: La cola está vacía.");
+            return -1; // Valor indicativo si la cola está vacía
+        }
+        int elemento = elementos[frente];
+        frente = (frente + 1) % capacidad; // Mover el frente de forma circular
+        tamaño--;
+        return elemento;
+    }
+
+    // Método para devolver el elemento del frente de la cola sin eliminarlo (Peek)
+    public int Peek()
+    {
+        if (IsEmpty())
+        {
+            Console.WriteLine("Error: La cola está vacía.");
+            return -1;
+        }
+        return elementos[frente];
+    }
+
+    // Método para verificar si la cola está vacía
+    public bool IsEmpty()
+    {
+        return tamaño == 0;
+    }
+
+    // Método para verificar si la cola está llena
+    public bool IsFull()
+    {
+        return tamaño == capacidad;
+    }
+
+    // Método para obtener el número de elementos en la cola
+    public int Tamaño()
+    {
+        return tamaño;
+    }
+}
+
+class Program
+{
+    static void Main(string[] args)
+    {
+        // Crear una cola con capacidad de 5 elementos
+        Cola cola = new Cola(5);
+
+        // Probar las operaciones de la cola
+        cola.Enqueue(10);
+        cola.Enqueue(20);
+        cola.Enqueue(30);
+        cola.Enqueue(40);
+        cola.Enqueue(50);
+        cola.Enqueue(60); // Intentar insertar cuando la cola está llena
+
+        Console.WriteLine($"Elemento del frente (Peek): {cola.Peek()}");
+
+        Console.WriteLine($"Elemento removido (Dequeue): {cola.Dequeue()}");
+        Console.WriteLine($"Elemento del frente (Peek): {cola.Peek()}");
+
+        cola.Enqueue(60);
+        Console.WriteLine($"Tamaño actual de la cola: {cola.Tamaño()}");
+
+        // Vaciar la cola
+        while (!cola.IsEmpty())
+        {
+            Console.WriteLine($"Elemento removido (Dequeue): {cola.Dequeue()}");
+        }
+    }
+}
 
 */
 
