@@ -11,6 +11,25 @@
 
 //C#
 /*
+using System;
+
+class Program
+{
+    static void Main(string[] args)
+    {
+        // Ejemplo de un arreglo de enteros
+        int[] numeros = { 2, 4, 6, 8, 10 };
+        int suma = 0;
+
+        // Sumar todos los elementos usando un bucle 'for'
+        for (int i = 0; i < numeros.Length; i++)
+        {
+            suma += numeros[i];
+        }
+
+        Console.WriteLine($"La suma de los elementos es: {suma}");
+    }
+}
 
 */
 
