@@ -11,7 +11,35 @@
 
 //C#
 /*
+using System;
 
+class Program
+{
+    // Método para calcular x^n de forma manual (para n entero)
+    static double Potencia(int x, int n)
+    {
+        double resultado = 1;
+        for (int i = 0; i < Math.Abs(n); i++)
+        {
+            resultado *= x;
+        }
+
+        // Si el exponente es negativo, invertimos el resultado
+        return n < 0 ? 1 / resultado : resultado;
+    }
+
+    static void Main(string[] args)
+    {
+        Console.WriteLine("Ingrese la base (x):");
+        int x = int.Parse(Console.ReadLine());
+
+        Console.WriteLine("Ingrese el exponente (n):");
+        int n = int.Parse(Console.ReadLine());
+
+        double resultado = Potencia(x, n);
+        Console.WriteLine($"{x}^{n} = {resultado}");
+    }
+}
 */
 
 
