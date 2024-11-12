@@ -11,6 +11,36 @@
 
 //C#
 /*
+using System;
+
+class Program
+{
+    static void Main(string[] args)
+    {
+        Console.Write("Ingrese un número binario: ");
+        string binario = Console.ReadLine();
+
+        int decimalValue = BinarioADecimal(binario);
+        Console.WriteLine($"El número binario {binario} en decimal es: {decimalValue}");
+    }
+
+    static int BinarioADecimal(string binario)
+    {
+        int decimalValue = 0;
+        int longitud = binario.Length;
+
+        for (int i = 0; i < longitud; i++)
+        {
+            // Convierte el carácter binario ('0' o '1') a entero
+            if (binario[i] == '1')
+            {
+                decimalValue += (int)Math.Pow(2, longitud - i - 1);
+            }
+        }
+
+        return decimalValue;
+    }
+}
 
 */
 
@@ -40,8 +70,8 @@ int main() {
 /*****************************************************************
 
 
-ARM64   —-------------binary_to_decimal.s
-***************************************************
+//ARM64   —-------------binary_to_decimal.s
+//***************************************************
 .section .text
 .global binary_to_decimal
 
