@@ -11,6 +11,28 @@
 
 //C#
 /*
+using System;
+
+class Program
+{
+    static void Main(string[] args)
+    {
+        Console.Write("Ingrese un número decimal: ");
+        int numero = int.Parse(Console.ReadLine());
+
+        Console.WriteLine($"El número {numero} en binario es: {DecimalABinario(numero)}");
+    }
+
+    static string DecimalABinario(int numero)
+    {
+        if (numero == 0)
+            return "0";
+        if (numero == 1)
+            return "1";
+
+        return DecimalABinario(numero / 2) + (numero % 2).ToString();
+    }
+}
 
 */
 
