@@ -11,7 +11,34 @@
 
 //C#
 /*
+using System;
 
+class Program
+{
+    static void InvertirRecursivo(int[] arr, int inicio, int fin)
+    {
+        if (inicio >= fin) return;
+
+        // Intercambiar los elementos
+        int temp = arr[inicio];
+        arr[inicio] = arr[fin];
+        arr[fin] = temp;
+
+        // Llamada recursiva
+        InvertirRecursivo(arr, inicio + 1, fin - 1);
+    }
+
+    static void Main(string[] args)
+    {
+        int[] numeros = { 21, 22, 23, 24, 25 };
+
+        // Invertir usando recursión
+        InvertirRecursivo(numeros, 0, numeros.Length - 1);
+
+        // Imprimir el arreglo invertido
+        Console.WriteLine("Arreglo invertido: " + string.Join(", ", numeros));
+    }
+}
 */
 
 //C
