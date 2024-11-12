@@ -11,6 +11,40 @@
 
 //C#
 /*
+using System;
+
+class Program
+{
+    // Función para calcular el MCD usando el Algoritmo de Euclides
+    static int CalcularMCD(int a, int b)
+    {
+        while (b != 0)
+        {
+            int temp = b;
+            b = a % b;
+            a = temp;
+        }
+        return a;
+    }
+
+    // Función para calcular el MCM usando la relación MCM(a, b) = (a * b) / MCD(a, b)
+    static int CalcularMCM(int a, int b)
+    {
+        return (a * b) / CalcularMCD(a, b);
+    }
+
+    static void Main(string[] args)
+    {
+        Console.WriteLine("Ingrese el primer número:");
+        int num1 = int.Parse(Console.ReadLine());
+
+        Console.WriteLine("Ingrese el segundo número:");
+        int num2 = int.Parse(Console.ReadLine());
+
+        int mcm = CalcularMCM(num1, num2);
+        Console.WriteLine($"El MCM de {num1} y {num2} es: {mcm}");
+    }
+}
 
 */
 
