@@ -40,7 +40,7 @@ class Program
     }
 }
 */
-
+/*
 //C
 #include <stdio.h>
 
@@ -63,7 +63,7 @@ int main() {
 
     return 0;
 }
-
+*/
 
 //ARM64
 // 34.s - Invertir un arreglo de enteros
