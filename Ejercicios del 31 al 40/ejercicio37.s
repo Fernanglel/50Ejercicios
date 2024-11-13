@@ -113,7 +113,7 @@ class Program
 
 */
 
-
+/*
 //Codigo en C
 #include <stdio.h>
 
@@ -181,7 +181,7 @@ int main() {
     return 0;
 }
 
-
+*/
 //ARM64
 .data
     .align 3
