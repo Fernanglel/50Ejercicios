@@ -121,7 +121,7 @@ class Program
 }
 
 */
-
+/*
 //codigo en c —------ main.c
 #include <stdio.h>
 
@@ -192,7 +192,7 @@ int main() {
 }
 
 
-
+*/
 
 
 
