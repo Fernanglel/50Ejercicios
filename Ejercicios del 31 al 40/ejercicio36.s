@@ -53,6 +53,7 @@ class Program
 
 */
 
+/*
 //C
 //nano 36.c
 
@@ -73,7 +74,7 @@ int main() {
 
     return 0;
 }
-
+*/
 //ARM64
 //nano 36.s
 
