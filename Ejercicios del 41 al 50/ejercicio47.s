@@ -11,6 +11,27 @@
 
 //C#
 /*
+using System;
+
+class Program
+{
+    static void Main()
+    {
+        int num1 = int.MaxValue;
+        int num2 = 1;
+
+        try
+        {
+            // Intentar sumar dentro de un bloque checked
+            int resultado = checked(num1 + num2);
+            Console.WriteLine($"Resultado: {resultado}");
+        }
+        catch (OverflowException)
+        {
+            Console.WriteLine("Error: Desbordamiento detectado en la suma.");
+        }
+    }
+}
 
 */
 
