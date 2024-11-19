@@ -11,6 +11,24 @@
 
 //C#
 /*
+using System;
+
+class Program
+{
+    static void Main()
+    {
+        Console.Write("Ingrese un número decimal: ");
+        if (int.TryParse(Console.ReadLine(), out int numeroDecimal))
+        {
+            string numeroHexadecimal = numeroDecimal.ToString("X");
+            Console.WriteLine($"Decimal: {numeroDecimal} -> Hexadecimal: {numeroHexadecimal}");
+        }
+        else
+        {
+            Console.WriteLine("Entrada inválida.");
+        }
+    }
+}
 
 */
 
