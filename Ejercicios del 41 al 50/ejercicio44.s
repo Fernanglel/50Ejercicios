@@ -11,6 +11,25 @@
 
 //C#
 /*
+using System;
+
+class Program
+{
+    static void Main()
+    {
+        // Crear un generador de números aleatorios con una semilla fija
+        int semilla = 42;
+        Random generador = new Random(semilla);
+
+        // Generar algunos números aleatorios
+        Console.WriteLine("Números aleatorios (con semilla 42):");
+        for (int i = 0; i < 5; i++)
+        {
+            int numero = generador.Next(1, 101); // Número entre 1 y 100
+            Console.WriteLine(numero);
+        }
+    }
+}
 
 */
 
