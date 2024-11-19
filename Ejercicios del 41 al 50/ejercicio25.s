@@ -11,6 +11,43 @@
 
 //C#
 /*
+using System;
+
+class Program
+{
+    static void Main()
+    {
+        string texto = "Hola Mundo!";
+
+        (int vocales, int consonantes) = ContarVocalesYConsonantes(texto);
+
+        Console.WriteLine($"Vocales: {vocales}");
+        Console.WriteLine($"Consonantes: {consonantes}");
+    }
+
+    static (int, int) ContarVocalesYConsonantes(string texto)
+    {
+        int contadorVocales = 0;
+        int contadorConsonantes = 0;
+
+        foreach (char c in texto.ToLower()) // Convertimos a minúsculas para simplificar la comparación
+        {
+            if (char.IsLetter(c)) // Solo consideramos letras (ignoramos números, espacios, etc.)
+            {
+                if ("aeiouáéíóú".Contains(c)) // Comprobamos si es una vocal (incluyendo acentuadas)
+                {
+                    contadorVocales++;
+                }
+                else // Si es una letra pero no una vocal, entonces es consonante
+                {
+                    contadorConsonantes++;
+                }
+            }
+        }
+
+        return (contadorVocales, contadorConsonantes);
+    }
+}
 
 */
 
