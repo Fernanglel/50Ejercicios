@@ -11,6 +11,77 @@
 
 //C#
 /*
+using System;
+
+class Program
+{
+    static void Main()
+    {
+        Console.WriteLine("=== Calculadora Simple ===");
+
+        // Solicitar el primer número
+        Console.Write("Ingrese el primer número: ");
+        if (!double.TryParse(Console.ReadLine(), out double num1))
+        {
+            Console.WriteLine("Entrada inválida.");
+            return;
+        }
+
+        // Solicitar el segundo número
+        Console.Write("Ingrese el segundo número: ");
+        if (!double.TryParse(Console.ReadLine(), out double num2))
+        {
+            Console.WriteLine("Entrada inválida.");
+            return;
+        }
+
+        // Mostrar el menú de opciones
+        Console.WriteLine("\nSeleccione una operación:");
+        Console.WriteLine("1 - Suma (+)");
+        Console.WriteLine("2 - Resta (-)");
+        Console.WriteLine("3 - Multiplicación (*)");
+        Console.WriteLine("4 - División (/)");
+        Console.Write("Opción: ");
+
+        // Leer la opción del usuario
+        string opcion = Console.ReadLine();
+        double resultado = 0;
+
+        switch (opcion)
+        {
+            case "1":
+                resultado = num1 + num2;
+                Console.WriteLine($"\nResultado: {num1} + {num2} = {resultado}");
+                break;
+
+            case "2":
+                resultado = num1 - num2;
+                Console.WriteLine($"\nResultado: {num1} - {num2} = {resultado}");
+                break;
+
+            case "3":
+                resultado = num1 * num2;
+                Console.WriteLine($"\nResultado: {num1} * {num2} = {resultado}");
+                break;
+
+            case "4":
+                if (num2 != 0)
+                {
+                    resultado = num1 / num2;
+                    Console.WriteLine($"\nResultado: {num1} / {num2} = {resultado}");
+                }
+                else
+                {
+                    Console.WriteLine("\nError: División entre cero no permitida.");
+                }
+                break;
+
+            default:
+                Console.WriteLine("\nOpción no válida.");
+                break;
+        }
+    }
+}
 
 */
 
