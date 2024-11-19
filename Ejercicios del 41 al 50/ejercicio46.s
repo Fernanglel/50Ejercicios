@@ -11,6 +11,43 @@
 
 //C#
 /*
+using System;
+
+class Program
+{
+    static void Main()
+    {
+        string[] cadenas = { "flor", "florecer", "flotante", "flota" };
+
+        string prefijoComun = EncontrarPrefijoComun(cadenas);
+
+        Console.WriteLine($"El prefijo común más largo es: '{prefijoComun}'");
+    }
+
+    static string EncontrarPrefijoComun(string[] cadenas)
+    {
+        if (cadenas == null || cadenas.Length == 0)
+            return string.Empty;
+
+        // Tomamos la primera cadena como base
+        string prefijo = cadenas[0];
+
+        // Comparar el prefijo con las demás cadenas
+        for (int i = 1; i < cadenas.Length; i++)
+        {
+            // Mientras no coincida, acortamos el prefijo
+            while (cadenas[i].IndexOf(prefijo) != 0)
+            {
+                prefijo = prefijo.Substring(0, prefijo.Length - 1);
+
+                if (prefijo == string.Empty)
+                    return string.Empty;
+            }
+        }
+
+        return prefijo;
+    }
+}
 
 */
 
