@@ -11,6 +11,26 @@
 
 //C#
 /*
+using System;
+
+class Program
+{
+    static void Main()
+    {
+        Console.Write("Ingrese un número hexadecimal: ");
+        string numeroHexadecimal = Console.ReadLine();
+        
+        try
+        {
+            int numeroDecimal = Convert.ToInt32(numeroHexadecimal, 16);
+            Console.WriteLine($"Hexadecimal: {numeroHexadecimal} -> Decimal: {numeroDecimal}");
+        }
+        catch (FormatException)
+        {
+            Console.WriteLine("El número ingresado no es un valor hexadecimal válido.");
+        }
+    }
+}
 
 */
 
