@@ -11,6 +11,26 @@
 
 //C#
 /*
+using System;
+
+class Program
+{
+    static void Main()
+    {
+        Console.Write("Ingrese un número: ");
+        string input = Console.ReadLine();
+
+        // Intentar convertir el valor ingresado a un número entero
+        if (int.TryParse(input, out int numero))
+        {
+            Console.WriteLine($"El número ingresado es: {numero}");
+        }
+        else
+        {
+            Console.WriteLine("Por favor, ingrese un número válido.");
+        }
+    }
+}
 
 */
 
