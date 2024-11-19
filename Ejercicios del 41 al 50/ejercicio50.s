@@ -11,6 +11,22 @@
 
 //C#
 /*
+using System;
+using System.IO;
+
+class Program
+{
+    static void Main()
+    {
+        string path = "archivo.txt";
+        string contenido = "\nEsta línea se agregó al final del archivo.";
+
+        // Agregar texto al final del archivo
+        File.AppendAllText(path, contenido);
+
+        Console.WriteLine($"El texto ha sido agregado al archivo '{path}'.");
+    }
+}
 
 */
 
